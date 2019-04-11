@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
+#include <stdio.h>
+#include <math.h>
 // prototype
 char rotEncryption(char c)
 char subEncryption(char c)
