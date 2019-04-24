@@ -25,6 +25,7 @@ int main(){
    // gets the input and puts into the array "message"
    while (fgets(message, sizeof(message), input)) {
       i++;
+      
    }
 // menu for function selection
    printf(" \n Please enter key between 0 & 25:");
@@ -58,6 +59,7 @@ int main(){
             subDecryption(message, text);
             break;
   */      
+ 
         default:
             printf("Please valid option (1, 2, 3, 4).\n");
             break;
@@ -73,7 +75,7 @@ int main(){
 
 //def
 // encrypts the rotation cipher
-void rotEncryption(char message[1024], char text[1024], int k){
+void rotEncryption(char message[1024], char text[1024], int k){//
     int i;
     //iterates through each character in the inputted message
     for (i = 0; message[i] != '\0'; i++) {
